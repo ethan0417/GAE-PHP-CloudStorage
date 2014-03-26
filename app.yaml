@@ -1,0 +1,14 @@
+application: cp-300-ethan-taipei101
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /simpleFile
+  script: simpleFile.php
+
+- url: /streamedFile
+  script: streamedFile.php
+
+- url: /publicallyAccessible
+  script: publicallyAccessible.php
