@@ -12,3 +12,9 @@ handlers:
 
 - url: /publicallyAccessible
   script: publicallyAccessible.php
+
+- url: /userUpload
+  script: userUpload.php
+
+- url: /servingImage
+  script: servingImage.php
